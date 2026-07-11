@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Addregistartion from './assets/components/Addregistartion'
 import SearchRegistration from './assets/components/SearchRegistration'
+import Deleteregistration from './assets/components/Deleteregistration'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
     <>
       <Addregistartion/>
       <SearchRegistration/>
+      <Deleteregistration/>
     </>
   )
 }
