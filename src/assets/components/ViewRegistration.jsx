@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import { useState } from 'react'
 import axios from 'axios'
+import Navigationbar from './Navigationbar'
 
 const ViewRegistration = () => {
      const [data,setdata]=useState([])
@@ -21,6 +22,7 @@ const ViewRegistration = () => {
         },[])
   return (
     <div>
+        <Navigationbar/>
         <div className="container mt-4">
         <h2 className="text-center mb-4">View All Employees</h2>
 
