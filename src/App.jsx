@@ -6,6 +6,7 @@ import './App.css'
 import Addregistartion from './assets/components/Addregistartion'
 import SearchRegistration from './assets/components/SearchRegistration'
 import Deleteregistration from './assets/components/Deleteregistration'
+import ViewRegistration from './assets/components/ViewRegistration'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Addregistartion/>
       <SearchRegistration/>
       <Deleteregistration/>
+      <ViewRegistration/>
     </>
   )
 }
